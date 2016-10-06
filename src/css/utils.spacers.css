@@ -30,5 +30,8 @@
         &--xlrg {
             margin-bottom: calc($unit * 8);
         }
+        &--xxlrg {
+            margin-bottom: calc($unit * 8);
+        }
     }
 }

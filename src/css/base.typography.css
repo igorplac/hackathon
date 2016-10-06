@@ -50,13 +50,13 @@ dl dd {}
 a {
     color: $color-primary;
     text-decoration: none;
+    transition: all 250ms ease-in-out;
 }
 a:link {}
 a:hover {
 }
 a:focus {
     outline: 0;
-    color: $color-secondary;
 }
 a:visited {}
 

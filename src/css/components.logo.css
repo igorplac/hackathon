@@ -3,12 +3,25 @@
 \*------------------------------------*/
 
 .logo {
-    width: 300px;
-    height: 180px;
 
     margin: 0 auto;
-    margin-top: calc($unit * 6); 
-    background-image: svg-load(../images/logo.svg);
     background-repeat: no-repeat;
-    background-size: 300px 180px;
+    
+    &--primary {
+        width: 300px;
+        height: 180px;
+        margin-top: calc($unit * 6); 
+        background-size: 300px 180px;
+        background-image: svg-load(../images/logo.svg);
+
+    }
+
+    &--secondary {
+        display: block;
+        width: 48px;
+        height: 48px;
+        
+        background-size: 48px 48px;
+        background-image: svg-load(../images/logo-fmos.svg);
+    }
 }
