@@ -1,0 +1,14 @@
+/*------------------------------------*\
+    # components.hero
+\*------------------------------------*/
+
+.hero {
+    width: 500px;
+    height: 500px;
+
+    margin: 0 auto;
+    margin-top: calc($unit * 10); 
+    background-image: svg-load(../images/main-visual.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

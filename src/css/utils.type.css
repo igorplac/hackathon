@@ -36,12 +36,10 @@
             @mixin type-scale $type-xlarge, 2;
         }
     }
-    &--huge {
-        font-size: calc($unit * 10);
-        line-height: calc($unit * 12);
+    &--xxxlarge {
+        @mixin type-scale $type-xxlarge, 1.5;
         @media (--screen-from-med) {
-            font-size: calc($unit * 18);
-            line-height: calc($unit * 20);
+            @mixin type-scale $type-xxxlarge, 2;
         }
     }
     &--thin {

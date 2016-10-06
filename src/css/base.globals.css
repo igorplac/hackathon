@@ -13,7 +13,8 @@ html {
 
 body {
     font-family: $ff-sans;
-    background: #f0f0f0;
+    background-color: #ffd501;
+    background-image: svg-load(../images/bg-worms.svg, stroke=white);
     overflow-x: hidden;
     color: $color-text;
     height: 100%;

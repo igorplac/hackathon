@@ -1,0 +1,14 @@
+/*------------------------------------*\
+    # components.header
+\*------------------------------------*/
+
+.logo {
+    width: 302px;
+    height: 182px;
+
+    margin: 0 auto;
+    margin-top: calc($unit * 6); 
+    background-image: svg-load(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 302px 182px;
+}

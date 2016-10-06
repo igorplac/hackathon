@@ -62,6 +62,8 @@
 * Description: specific website/app components
 */
 @import "components.header.css";
+@import "components.logo.css";
+@import "components.hero.css";
 /* @import components.footer.css; */
 
 /**
