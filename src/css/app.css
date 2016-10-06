@@ -64,7 +64,7 @@
 @import "components.header.css";
 @import "components.logo.css";
 @import "components.hero.css";
-/* @import components.footer.css; */
+@import "components.footer.css";
 
 /**
 * Import: views
