@@ -8,12 +8,17 @@
     background-repeat: no-repeat;
     
     &--primary {
-        width: 404px;
+        width: 250px;
         height: 126px;
         margin-top: calc($unit * 6); 
-        background-size: 404px 126px;
+        background-size: 250px 126px;
         background-image: svg-load(../images/logo.svg);
+        @media (--screen-from-med) {
+            width: 404px;
+            height: 126px;
 
+            background-size: 404px 126px;
+        }
     }
 
     &--secondary {
