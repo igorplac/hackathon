@@ -12,13 +12,16 @@ html {
 }
 
 body {
+    height: 100%;
+    overflow-x: hidden;
+
+
     font-family: $ff-sans;
+    color: $color-text;
+
     background-color: #ffd501;
     background-image: svg-load(../images/bg-worms.svg, stroke=white);
     background-attachment: fixed;
-    overflow-x: hidden;
-    color: $color-text;
-    height: 100%;
 }
 
 img {

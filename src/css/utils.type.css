@@ -9,6 +9,9 @@
     &--serif {
         font-family: $ff-serif;
     }
+    &--mono {
+        font-family: $ff-mono;
+    }
     &--tiny {
         @mixin type-scale $type-tiny, 0.75;
     }
@@ -71,6 +74,9 @@
         }
     }
     &--color {
+        &--primary {
+            color: $color-primary;
+        }
         &--light {
             color: color($color-text lightness(+20%));
         }

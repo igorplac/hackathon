@@ -1,0 +1,76 @@
+/*------------------------------------*\
+    # components.visuals
+\*------------------------------------*/
+
+.visual {
+	position: absolute;
+    background-repeat: no-repeat;
+
+	&--eye-closed {
+		top: 35%;
+		right: 15%;
+
+		width: 100px;
+    	height: 85px;
+
+	    background-size: 100px 85px;
+    	background-image: svg-load(../images/eye-closed.svg);
+	}
+
+	&--eye-opened {
+		top: 10%;
+		left: 10%;
+		
+		width: 118px;
+		height: 98px;
+
+		background-size: 118px 98px;
+		background-image: svg-load(../images/eye-opened.svg);
+	}
+
+	&--finger {
+		top: 40%;
+		left: 10%;
+
+		width: 130px;
+		height: 158px;
+
+		background-size: 130px 158px;
+		background-image: svg-load(../images/finger.svg);
+		
+	}
+
+	&--key-h {		
+		bottom: 10%;
+		left: 10%;
+
+		width: 80px;
+		height: 80px;
+
+		background-size: 80px 80px;
+		background-image: svg-load(../images/key-h.svg);
+		
+	}
+
+	&--key-b {
+		top: 5%;
+		right: 15%;
+		
+		width: 150px;
+		height: 280px;
+
+		background-size: 150px 280px;
+		background-image: svg-load(../images/key-b.svg);
+	}
+
+	&--main-visual {
+		bottom: 15%;
+		right: 10%;
+		
+		width: 235px;
+		height: 268px;
+
+		background-size: 235px 268px;
+		background-image: svg-load(../images/main-visual.svg);
+	}
+}

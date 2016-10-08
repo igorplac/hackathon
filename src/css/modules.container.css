@@ -7,7 +7,7 @@
     max-width: 1280px;
     &--sml {
         margin: 0 auto;
-        max-width: 600px;
+        max-width: 450px;
     }
 
  }

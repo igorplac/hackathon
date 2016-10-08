@@ -8,10 +8,10 @@
     background-repeat: no-repeat;
     
     &--primary {
-        width: 300px;
-        height: 180px;
+        width: 404px;
+        height: 126px;
         margin-top: calc($unit * 6); 
-        background-size: 300px 180px;
+        background-size: 404px 126px;
         background-image: svg-load(../images/logo.svg);
 
     }
