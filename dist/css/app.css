@@ -1034,6 +1034,13 @@ strike {}
         line-height: 42px;
     }
 }
+/*------------------------------------*\
+    # components.avatar
+\*------------------------------------*/
+.avatar {
+	width: 96px;
+	border-radius: 1000px;
+}
 /**
 * Import: views
 * Description: specific website/app views (example: 404 view, login view)
