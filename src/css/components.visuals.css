@@ -3,9 +3,20 @@
 \*------------------------------------*/
 
 .visual {
-	position: absolute;
+	position: fixed;
     background-repeat: no-repeat;
 	@media (--screen-from-med) {
+		&--eye-opened {
+			top: 5%;
+			left: 6%;
+			
+			width: 118px;
+			height: 98px;
+
+			background-size: 118px 98px;
+			background-image: svg-load(../images/eye-opened.svg);
+		}
+
 		&--eye-closed {
 			top: 35%;
 			right: 15%;
@@ -17,20 +28,9 @@
 	    	background-image: svg-load(../images/eye-closed.svg);
 		}
 
-		&--eye-opened {
-			top: 10%;
-			left: 10%;
-			
-			width: 118px;
-			height: 98px;
-
-			background-size: 118px 98px;
-			background-image: svg-load(../images/eye-opened.svg);
-		}
-
 		&--finger {
-			top: 40%;
-			left: 10%;
+			top: 20%;
+			left: 5%;
 
 			width: 130px;
 			height: 158px;
@@ -41,7 +41,7 @@
 		}
 
 		&--key-h {		
-			bottom: 10%;
+			top: 45%;
 			left: 10%;
 
 			width: 80px;
@@ -54,7 +54,7 @@
 
 		&--key-b {
 			top: 5%;
-			right: 15%;
+			right: 10%;
 			
 			width: 150px;
 			height: 280px;
@@ -64,8 +64,8 @@
 		}
 
 		&--main-visual {
-			bottom: 15%;
-			right: 10%;
+			top: 55%;
+			right: 5%;
 			
 			width: 235px;
 			height: 268px;

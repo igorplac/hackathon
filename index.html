@@ -25,14 +25,14 @@
         <header class="container spc--bottom--xlrg">
             <h1 class="logo logo--primary s-reveal"></h1>
         </header>
-        <main class="container group spc--bottom--xlrg">
-            <div class="visual visual--eye-opened s-reveal"></div>
-            <div class="visual visual--eye-closed s-reveal"></div>
-            <div class="visual visual--finger s-reveal"></div>
-            <div class="visual visual--key-h s-reveal"></div>
-            <div class="visual visual--key-b s-reveal"></div>
-            <div class="visual visual--main-visual s-reveal"></div>
-            <section class="type--center spc--top--xxlrg spc--bottom--xlrg container--sml">
+        <main class="container group spc--bottom--xlrg js-scene">
+            <div class="visual visual--eye-opened s-reveal layer" data-depth="0.90"></div>
+            <div class="visual visual--eye-closed s-reveal layer" data-depth="0.40"></div>
+            <div class="visual visual--finger s-reveal layer" data-depth="0.40"></div>
+            <div class="visual visual--key-h s-reveal layer" data-depth="0.40"></div>
+            <div class="visual visual--key-b s-reveal layer" data-depth="0.20"></div>
+            <div class="visual visual--main-visual s-reveal layer" data-depth="0.55"></div>
+            <section class="type--center spc--top--xxlrg container--sml">
                 <h1 class="title type--bold type--uppercase type--letterspace--wide type--color--primary spc--bottom--med s-reveal">Coworking_Osijek <br> Subota_12_11_2016 13_00&mdash;18_00</h1>
                 <p class="type--base type--mono spc--bottom--med s-reveal">
                     Bez <strike>browsera</strike>, <strike>procesora</strike>, <strike>terminala</strike>, <strike>gulpova</strike>, <strike>gruntova</strike> i ostalih forica &mdash; samo vi, text editor, dobar stari HTML, CSS i JavaScript!
@@ -40,9 +40,11 @@
                 <p class="type--base type--mono spc--bottom--med s-reveal">
                 Ovo je hackathon za sve koji žele testirati svoje <strong>vještine kodiranja</strong> i dokazati da su prave code nindže (kornjače su vešte nindže). Ako ste za dobar provod i <strong>puno smijeha</strong> na prezentaciji prijavite se.
                 </p>
-                <a href="#" class="btn btn--secondary btn--med s-reveal">Prijavi se</a>
+                <div class="s-reveal">
+                    <a href="#" class="btn btn--secondary btn--med">Prijavi se</a>
+                </div>
             </section>
-            <section class="container--sml spc--bottom--xlrg type--center">
+            <section class="container--sml type--center">
                 <h1 class="type--center type--color--primary spc--bottom--lrg s-reveal">Nagrada</h1>
                 <div class="type--mono type--medium">
                     <iframe width="100%" height="300" src="https://www.youtube.com/embed/-1Y2WfcCb4M" frameborder="0" allowfullscreen class="s-reveal"></iframe>
@@ -52,7 +54,7 @@
                     </p>
                 </div>
             </section>
-            <section class="container--sml spc--bottom--xlrg type--center">
+            <section class="container--sml type--center">
                 <h1 class="type--center type--color--primary spc--bottom--lrg s-reveal">Pravila</h1>
                 <ul class="type--mono type--medium s-reveal">
                     <li class="spc--bottom--sml">_6 sati kodiranja</li>
@@ -61,22 +63,22 @@
                     <li class="spc--bottom--sml">_razni snippeti koda na ploči</li>
                     <li class="spc--bottom--sml">_svatko će na bootabilnom live Ubuntu USB-u dobiti predinstaliran text editor, html5 boilerplate, css reset i jquery. Uz to, u projekt folderu će biti asseti &mdash; slike, ikone i  embedani fontovi.</li>
                     <li class="spc--bottom--sml">_2 x 5 minuta jocker&mdash;pogledaj u browseru kod komisije</li>
-                    <li class="spc--bottom--sml"><strong>_1 pobjednik</strong></li>
+                    <li class="spc--bottom--sml type--color--secondary"><strong>_1 pobjednik</strong></li>
                 </ul>
             </section>
-            <section class="container--sml spc--bottom--xlrg type--center">
+            <section class="container--sml type--center">
                 <h1 class="type--center type--color--primary spc--bottom--lrg s-reveal">Raspored</h1>
                 <ul class="type--mono type--medium s-reveal">
-                    <li class="spc--bottom--sml"><span class="type--bold">9_00</span>&mdash;<span class="type--bold">9_15</span> - Registracija</li>
-                    <li class="spc--bottom--sml"><span class="type--bold">9_15</span>&mdash;<span class="type--bold">9_40</span> - Postavljanje projekta</li>
-                    <li class="spc--bottom--sml"><span class="type--bold">9_40</span>&mdash;<span class="type--bold">9_50</span> - Uvodna riječ</li>
-                    <li class="spc--bottom--sml"><span class="type--bold">9_50</span>&mdash;<span class="type--bold">10_00</span> - Prezentacija - "Kako hakirati vrijeme?", Hackerman <span class="type--small">(Hackerman demonstrira kako hakirati obične kućne predmete kako bi putovali naprijed ili nazad u vrijeme.)</span></li>
-                    <li class="spc--bottom--sml"><span class="type--bold">10_00</span>&mdash;<span class="type--bold">18_00</span> - Početak kodiranja</li>
-                    <li class="spc--bottom--sml"><span class="type--bold">18_00</span>&mdash;<span class="type--bold">19_30</span> - Review i proglašenje pobjednika</li>
-                    <li class="spc--bottom--sml"><span class="type--bold">19_30</span>&mdash;<span class="type--bold">...</span> - After party u Rundi, S. Radića 44</li>
+                    <li class="spc--bottom--sml"><span class="type--bold type--color--secondary">9_00</span>&mdash;<span class="type--bold type--color--secondary">9_15</span> - Registracija</li>
+                    <li class="spc--bottom--sml"><span class="type--bold type--color--secondary">9_15</span>&mdash;<span class="type--bold type--color--secondary">9_40</span> - Postavljanje projekta</li>
+                    <li class="spc--bottom--sml"><span class="type--bold type--color--secondary">9_40</span>&mdash;<span class="type--bold type--color--secondary">9_50</span> - Uvodna riječ</li>
+                    <li class="spc--bottom--sml"><span class="type--bold type--color--secondary">9_50</span>&mdash;<span class="type--bold type--color--secondary">10_00</span> - Prezentacija - "Kako hakirati vrijeme?", Hackerman <span class="type--small">(Hackerman demonstrira kako hakirati obične kućne predmete kako bi putovali naprijed ili nazad u vrijeme.)</span></li>
+                    <li class="spc--bottom--sml"><span class="type--bold type--color--secondary">10_00</span>&mdash;<span class="type--bold type--color--secondary">18_00</span> - Početak kodiranja</li>
+                    <li class="spc--bottom--sml"><span class="type--bold type--color--secondary">18_00</span>&mdash;<span class="type--bold type--color--secondary">19_30</span> - Review i proglašenje pobjednika</li>
+                    <li class="spc--bottom--sml"><span class="type--bold type--color--secondary">19_30</span>&mdash;<span class="type--bold type--color--secondary">...</span> - After party u <a href="https://www.facebook.com/pivnicarunda/?fref=ts">Pivnici Runda</a>, S. Radića 44</li>
                 </ul>
             </section>
-            <section class="padd--bottom--xlrg">
+            <section class="container">
                 <h1 class="type--center type--color--primary spc--bottom--lrg s-reveal">Cijenjena porota</h1>
                 <div class="row type--center spc--bottom--med s-reveal">
                     <div class="col col-sml-12 col-med-4 spc--bottom--med">
@@ -102,7 +104,7 @@
                     </div>
                 </div>
             </section>
-            <section class="padd--bottom--xlrg">
+            <section class="container">
                 <h1 class="type--center type--color--primary spc--bottom--lrg s-reveal">Sponzori</h1>
                 <div class="row type--center spc--bottom--med s-reveal">
                     <div class="col col-sml-12 col-med-3 spc--bottom--med">
@@ -133,12 +135,10 @@
                     </div>
                 </div>
             </section>
-
         </main>
         <footer class="footer type--center">
             <p class="type--negative spc--bottom--sml type--tiny type--uppercase type--letterspace--wide s-reveal">Organizira:</p>
             <a href="https://www.facebook.com/OsijekFrontEndMeetup/" class="logo logo--secondary s-reveal"></a>
-
         </footer>
         <script src="dist/js/parallax.min.js"></script>
         <script src="dist/js/scrollreveal.min.js"></script>
