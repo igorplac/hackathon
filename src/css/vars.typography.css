@@ -33,6 +33,6 @@ $type-weight-bold:     700;
 /**
 * Font stacks
 */
-$ff-sans: 'Quicksand', Helvetica, Arial, sans-serif;
+$ff-sans: 'futura-pt', Helvetica, Arial, sans-serif;
 $ff-serif: Georgia, Times, serif;
 $ff-mono: 'Source Code Pro', monospace;

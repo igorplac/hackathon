@@ -28,7 +28,8 @@ var gulp = require('gulp'),
 */
 gulp.task('connect', function() {
     connect.server({
-        livereload: true
+        livereload: true,
+        port: 9000
     });
 });
 
@@ -38,7 +39,7 @@ gulp.task('connect', function() {
 gulp.task('open', function(){
   gulp.src(__filename)
   .pipe(open({
-    uri: 'http://localhost:8080'
+    uri: 'http://localhost:9000'
     })
   );
 });

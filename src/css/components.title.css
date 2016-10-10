@@ -5,6 +5,6 @@
 .title {
 	@mixin type-scale $type-large, 1;
     @media (--screen-from-med) {
-		@mixin type-scale $type-xxxlarge, 1.75;
+		@mixin type-scale $type-xxxlarge, 2;
 	}
 }
