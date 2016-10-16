@@ -1,0 +1,15 @@
+/*------------------------------------*\
+    # components.sponsors
+\*------------------------------------*/
+
+.sponsors {
+	&__image {
+		filter: grayscale(100%);
+		transition: all 250ms ease-in-out;
+		&:hover,
+		&:focus,
+		&:active {
+			filter: grayscale(0%);
+		}
+	}
+}
