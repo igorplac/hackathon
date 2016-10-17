@@ -563,6 +563,7 @@ img {
 }
 svg {
     max-width: 100%;
+    width: 100%;
 }
 /*------------------------------------*\
     # base.typography
@@ -615,7 +616,6 @@ dl dd {}
  */
 a {
     color: #e62378;
-    border-bottom: 1px solid #e62378;
     text-decoration: none;
     transition: all 250ms ease-in-out;
 }
@@ -1043,6 +1043,20 @@ strike {}
 .avatar {
 	width: 96px;
 	border-radius: 1000px;
+}
+/*------------------------------------*\
+    # components.sponsors
+\*------------------------------------*/
+.sponsors__image {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    transition: all 250ms ease-in-out;
+}
+.sponsors__image:hover,
+		.sponsors__image:focus,
+		.sponsors__image:active {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
 }
 /**
 * Import: views

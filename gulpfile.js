@@ -93,6 +93,8 @@ gulp.task('cssBuild', function (){
     // Rename
     .pipe(rename('app.min.css'))
     .pipe(gulp.dest('dist/css'))
+    .pipe(connect.reload());
+    
 });
 
 // Stylelint
