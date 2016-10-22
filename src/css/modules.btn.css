@@ -33,7 +33,7 @@
     font-family: $ff-sans;
     font-weight: $type-weight-bold;
     text-transform: uppercase;
-    letter-spacing: 0.2px;
+    letter-spacing: 1.5px;
 
     /**
      * Button styles

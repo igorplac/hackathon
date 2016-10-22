@@ -8,17 +8,22 @@
     background-repeat: no-repeat;
     
     &--primary {
-        width: 408px;
-        height: 153px;
+        width: 328px;
+        height: 123px;
         margin-top: calc($unit * 6); 
-        background-size: 408px 153px;
+        background-size: 328px 123px;
         background-image: svg-load(../images/logo.svg);
-        /*@media (--screen-from-med) {
-            width: 375px;
-            height: 140px;
+        @media (--screen-from-med) {
+            width: 408px;
+            height: 324px;
 
-            background-size: 375px 140px;
-        }*/
+            background-size: 408px 324px;
+            background-image: svg-load(../images/logo-full.svg);
+            /*width: 408px;
+            height: 153px;
+
+            background-size: 408px 153px;*/
+        }
     }
 
     &--secondary {
