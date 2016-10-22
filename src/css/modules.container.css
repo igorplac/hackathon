@@ -13,8 +13,12 @@
 
     &--sml {
         margin: 0 auto;
-        max-width: 500px;
+        max-width: 580px;
         margin-bottom: calc($unit * 10);
+    }
+    &--med {
+        margin: 0 auto;
+        max-width: 600px;
     }
 
  }

@@ -8,17 +8,17 @@
     background-repeat: no-repeat;
     
     &--primary {
-        width: 250px;
-        height: 126px;
+        width: 408px;
+        height: 153px;
         margin-top: calc($unit * 6); 
-        background-size: 250px 126px;
+        background-size: 408px 153px;
         background-image: svg-load(../images/logo.svg);
-        @media (--screen-from-med) {
-            width: 404px;
-            height: 126px;
+        /*@media (--screen-from-med) {
+            width: 375px;
+            height: 140px;
 
-            background-size: 404px 126px;
-        }
+            background-size: 375px 140px;
+        }*/
     }
 
     &--secondary {

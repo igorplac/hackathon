@@ -16,6 +16,12 @@
         &--xlrg {
             margin-top: calc($unit * 8);
         }
+        &--xxxlrg {
+            margin-top: calc($unit * 10);
+        }
+        &--huge {
+            margin-top: calc($unit * 14);
+        }
     }
     &--bottom {
         &--sml {
@@ -32,6 +38,12 @@
         }
         &--xxlrg {
             margin-bottom: calc($unit * 8);
+        }
+        &--xxxlrg {
+            margin-bottom: calc($unit * 10);
+        }
+        &--huge {
+            margin-bottom: calc($unit * 14);
         }
     }
 }
